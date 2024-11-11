@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/MalikHarrisAhm/piper-spm",
-                 .upToNextMajor(from: ""2023.9.13"..."2024.11.11""))
+                 .upToNextMajor(from: "2023.9.13"..."2024.11.11"))
     ],
     targets: [
         .target(name: "piper-objc",
